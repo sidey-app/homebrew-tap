@@ -17,5 +17,7 @@ cask "sidey" do
 
   app "SIDEY.app"
 
-  uninstall quit: "app.sidey.desktop"
+  uninstall quit:       "app.sidey.desktop",
+            signal:     [["TERM", "app.sidey.desktop"]],
+            on_upgrade: :signal
 end
