@@ -1,15 +1,11 @@
 cask "sidey" do
-  version "0.2.0-alpha.7"
-  sha256 "05874b612c2c09bbc20d56c5ac96943a784b967bd0b18ee4ff37b17a955fd429"
+  version "0.2.0"
+  sha256 "8fa6a3ef037888fbbda44d5143dd79f89f3527701f82d206f313e1ff91046036"
 
   url "https://github.com/sidey-app/SIDEY/releases/download/v#{version}/SIDEY-macOS-arm64-v#{version}.dmg"
   name "SIDEY"
   desc "Ambient overlay messenger for close friends"
   homepage "https://github.com/sidey-app/SIDEY"
-
-  livecheck do
-    skip "Alpha releases are published as GitHub pre-releases"
-  end
 
   auto_updates true
   depends_on arch: :arm64
