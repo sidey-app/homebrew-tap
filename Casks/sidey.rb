@@ -1,6 +1,6 @@
 cask "sidey" do
-  version "0.2.0"
-  sha256 "8fa6a3ef037888fbbda44d5143dd79f89f3527701f82d206f313e1ff91046036"
+  version "1.0.0"
+  sha256 "83f9b574487fab26d9a145ff3803ff7f0df89f09b1923142bde2ab45f2b831fc"
 
   url "https://github.com/sidey-app/SIDEY/releases/download/v#{version}/SIDEY-macOS-arm64-v#{version}.dmg"
   name "SIDEY"
